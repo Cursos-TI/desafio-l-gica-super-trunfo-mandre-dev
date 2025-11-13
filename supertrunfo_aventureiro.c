@@ -176,9 +176,9 @@ int main()
 
     case 5:
         if (densidade_pop1 > densidade_pop2) {
-            printf("Carta 1 venceu na Densidade Populacional!\n");
-        } else if (densidade_pop1 < densidade_pop2) {
             printf("Carta 2 venceu na Densidade Populacional!\n");
+        } else if (densidade_pop1 < densidade_pop2) {
+            printf("Carta 1 venceu na Densidade Populacional!\n");
         } else {
             printf("Empate na Densidade Populacional!\n");
         }
